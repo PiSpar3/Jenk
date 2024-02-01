@@ -4,7 +4,7 @@ pipeline{
         stage("Testing"){
             steps{
                 sh """
-                        echo"Welcome to Jenkins Ola"
+                        echo "Welcome to Jenkins Ola"
                    
                    """
             }
